@@ -1,0 +1,14 @@
+function a = modelSelectAction(transitionModel, s)
+
+    row = transitionModel(s,:);
+    a = 0;
+    returnA = 0;
+    while returnS == 0
+        a = randi([1 4]);
+    
+        if(row)
+        
+    end
+
+end
+

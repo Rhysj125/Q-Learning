@@ -1,0 +1,16 @@
+function returnS = modelSelectState(transitionModel)
+    
+    s = 0;
+
+    while s == 0
+        s = randi([1 11]);
+        
+        for i = 1:4
+            if (transitionModel(s,i) ~= 0)
+                returnS = s;
+                els
+        end
+        
+    end
+end
+
